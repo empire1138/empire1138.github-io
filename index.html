@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,300;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h4>GKJ</h4>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Gabriel Juarez</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+      <img src="./images/my-logo.png" alt="my logo" class="intro__img" />
+    </section>
+
+    <!--About ME-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Developer & Computer Technician based in California
+      </p>
+      <div class="about-me__body">
+        <p>
+          Hello, My name is Gabriel Juarez. I'm currently a student at Bay Valley Code Academy learning Full Stack web development.I'm working on developing my skills in these languages, frameworks and technologies. 
+          <ul>
+              <li>Angular and React</li>
+              <li>Bootstrap, CSS and HTML</li>
+              <li>Javascript, Typescript and Python</li>
+              <li>Node, Express and MySql</li>
+          </ul> 
+        </p>
+        <p>
+          I have a Technical Education Associate in Arts with Honors from San Joaquin Delta College with a focus in Electronics and Electrical technologies. I've always enjoyed learning new tech or tinkering in the garage. The image over to end of this section is my first solder job on PS4 hdmi port. I did freelance Computer Technician and Electronics work while also working as a caregiver for almost 10 years. I moved to web development with the learning opportunity from Bay Valley Code Academy. 
+        </p>
+      </div>
+      <img
+        src="/images/20160319_175843_HDR (3).jpg"
+        alt="Img on my first PS4 hdmi Solder work"
+        class="about-me__img"
+      />
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle"></p>
+
+      <div class="portfolio">
+        <a class="portfolio__item" href="/portfolio-item-Angular-Store.html">
+          <img class="portfolio__img" src="/images/AngularFrontEndStorePicOne.png"  />
+        </a>
+
+        <a class="portfolio__item" href="/portfolio-item-Angular-EnterForm.html">
+          <img class="portfolio__img" src="/images/AngularFrontEndEnterFormPicOne.png" />
+        </a>
+
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="mailto: gabriel.kj.work@gmail.com" class="footer__link">Email</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/empire1138"><i class="fab fa-codepen" aria-hidden="true"></i></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/empire1138"><i class="fab fa-github" aria-hidden="true"></i></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/gabriel-juarez-523b2685/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

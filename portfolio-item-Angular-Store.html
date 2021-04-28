@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Portfolio item Website</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,300;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h4>GKJ</h4>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" >
+      <h1 class="section__title section__title--intro">
+        Angular Frontend<strong>Store project</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro"></p>
+      <img src="./images/AngularFrontEndStorePicOne.png" alt="project-snapshot" class="intro__img" />
+    </section>
+
+    <!--Portfolio Item-->
+    <div class="portfolio-item-individual">
+        <p>This project is a small mockup of a web store. Frontend done in Angular</p>
+        <img src="/images/AngularFrontEndStorePicThree.png"/>
+        <p></p>
+        <P>
+          <a href="https://github.com/empire1138/portfolio-website-projects/tree/master/Gabriel_Juarez_Angular_FrontEnd_Project_shopping-cart-store"><i class="fab fa-github" aria-hidden="true"></i></a>
+        </P>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="" class="footer__link">mail</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="#"
+            ><i class="fab fa-codepen" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#"
+            ><i class="fab fa-github" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#"
+            ><i class="fab fa-linkedin" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/index.js"></script>
+  </body>
+</html>
